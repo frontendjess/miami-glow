@@ -1,14 +1,21 @@
 /* animations */
 
-@keyframes animate {
+@keyframes scale {
 	0% {
-		width: 0px;
-		height: 0px;
-		opacity: 0.5;
+		transform: scale(2);
 	}
 	100% {
-		width: 500px;
-		height: 500px;
-		opacity: 0;
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes fadeUp {
+	0% {
+		transform: translateY(4rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }
