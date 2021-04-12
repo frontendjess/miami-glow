@@ -157,3 +157,34 @@ header {
 	background-size: cover;
 	position: relative;
 }
+
+/* button cta */
+.btn-cta {
+	position: relative;
+	margin: 1rem 0;
+	padding: 1.2rem 3.6rem;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	letter-spacing: 2px;
+	border-radius: 4rem;
+	background: linear-gradient(90deg, #ff006b, #fbdce1);
+}
+
+/* .btn-cta:hover {
+	background: linear-gradient(90deg, #755bea, #ff72c0);
+} */
+
+.btn-cta::nth-child(2) {
+	background: linear-gradient(90deg, #755bea, #ff72c0);
+}
+
+span {
+	position: absolute;
+	background: #fff;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	border-radius: 50%;
+	animation: animate 1s linear infinite;
+}
