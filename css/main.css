@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Open+Sans:wght@400;600;800&display=swap');
+@import './partials/variables.css';
+@import './partials/layout.css';
+@import './partials/home.css';
+
+/* media queries always go at the end dont add anything below this */
+@import './partials/media-queries.css';
