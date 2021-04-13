@@ -4,7 +4,7 @@
 	section {
 		padding: 7.9rem;
 	}
-	
+
 	.menu-toggle {
 		display: none;
 	}
@@ -43,7 +43,6 @@
 		display: none;
 	}
 
-	
 	.footer-content {
 		max-width: 77.5rem;
 		margin: auto;
@@ -65,7 +64,6 @@
 		max-width: 27.3rem;
 		margin: 0 1rem;
 		padding: 0 1rem;
-
 	}
 
 	.social-icons i {
@@ -75,8 +73,6 @@
 	.newsletter-btn {
 		margin-left: 15.5rem;
 	}
-}
-
 }
 
 /* hero content resize */
@@ -149,7 +145,6 @@
 		transform: translateY(0);
 	}
 }
-
 
 @keyframes grow {
 	0% {
