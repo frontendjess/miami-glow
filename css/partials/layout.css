@@ -61,6 +61,17 @@ header {
 	transition: height 0.5s ease;
 }
 
+.menu-toggle {
+	color: #fff;
+	font-size: 2.2rem;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 2.5rem;
+	cursor: pointer;
+	z-index: 1500;
+}
+
 .nav a {
 	text-decoration: none;
 	color: var(--secondary-font-color);
