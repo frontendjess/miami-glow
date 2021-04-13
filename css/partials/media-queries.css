@@ -1,3 +1,53 @@
+/* desktop version */
+
+@media screen and (min-width: 900px) {
+	.menu-toggle {
+		display: none;
+	}
+
+	.nav {
+		justify-content: space-between;
+	}
+
+	.nav-list {
+		margin-left: 4rem;
+		position: initial;
+		width: initial;
+		height: initial;
+		background-color: transparent;
+		padding: 0;
+		justify-content: initial;
+		flex-direction: row;
+		transform: initial;
+		transition: initial;
+	}
+
+	.nav-item {
+		margin: 0 1.4rem;
+		border: none;
+	}
+
+	.nav-item:last-child {
+		margin-right: 0;
+	}
+
+	.nav-link {
+		font-size: 1.3rem;
+	}
+
+	.nav-booking-link {
+		display: none;
+	}
+}
+
+/* mobile version */
+
+@media screen and (max-width: 899px) {
+	#nav-cta {
+		display: none;
+	}
+}
+
 /* animations */
 
 @keyframes scale {
