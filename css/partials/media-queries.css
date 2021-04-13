@@ -1,6 +1,10 @@
 /* desktop version */
 
 @media screen and (min-width: 900px) {
+	section {
+		padding: 7.9rem;
+	}
+	
 	.menu-toggle {
 		display: none;
 	}
@@ -38,6 +42,41 @@
 	.nav-booking-link {
 		display: none;
 	}
+
+	
+	.footer-content {
+		max-width: 77.5rem;
+		margin: auto;
+	}
+
+	.footer-content-about {
+		max-width: 51.3rem;
+		margin: 0 auto 5.4rem;
+	}
+
+	.footer-content-divider {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.social-media,
+	.newsletter-form {
+		width: 100%;
+		max-width: 27.3rem;
+		margin: 0 1rem;
+		padding: 0 1rem;
+
+	}
+
+	.social-icons i {
+		opacity: 1;
+	}
+
+	.newsletter-btn {
+		margin-left: 15.5rem;
+	}
+}
+
 }
 
 /* hero content resize */
@@ -108,5 +147,49 @@
 	100% {
 		opacity: 1;
 		transform: translateY(0);
+	}
+}
+
+
+@keyframes grow {
+	0% {
+		width: 0;
+	}
+	100% {
+		opacity: 1;
+		width: 100%;
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes fadeDown {
+	0% {
+		transform: translateY(-1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes up {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-1rem);
 	}
 }
