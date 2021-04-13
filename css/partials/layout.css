@@ -100,7 +100,9 @@ header {
 	left: 0;
 	width: 80%;
 	height: 100vh;
-	background-color: var(--main-font-color-dark);
+	/* background-color: var(--main-font-color-dark); */
+	/* background-color: var(--secondary-font-color); */
+	background-color: #fbdce1;
 	padding: 4.4rem;
 	flex-direction: column;
 	justify-content: space-around;
@@ -133,6 +135,10 @@ header {
 
 .open .nav-list {
 	transform: translateX(0);
+}
+
+.open .nav-list a {
+	color: var(--main-font-color-dark);
 }
 
 .open .nav::before {
