@@ -142,11 +142,6 @@
 	text-align: center;
 }
 
-.customers-slider-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	border: solid 1px black;
-}
 .customers-slider-flexbox {
 	display: flex;
 }
@@ -160,7 +155,7 @@
 }
 
 .customers-text p {
-	padding: 2.4rem;
+	padding: 2.4rem 0;
 	color: var(--main-font-color-dark);
 }
 

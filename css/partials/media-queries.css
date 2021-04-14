@@ -131,6 +131,27 @@
 	#nav-cta {
 		display: none;
 	}
+
+	.global-sub-headline {
+		font-size: 4.2rem;
+	}
+
+	.customers-slider-right {
+		display: none;
+	}
+
+	.lazy {
+		width: 90%;
+		max-width: 90%;
+	}
+
+	.customers {
+		background: linear-gradient(
+				rgba(255, 248, 249, 0.5),
+				rgba(255, 255, 255, 0.4)
+			),
+			url(../../img/influencer.png) center/cover no-repeat;
+	}
 }
 
 /* animations */
