@@ -77,6 +77,11 @@
 	.services-img-container {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
+
+	.whats-new-img-container {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 3rem;
+	}
 }
 
 /* hero content resize */
