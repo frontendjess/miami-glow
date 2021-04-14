@@ -73,6 +73,10 @@
 	.newsletter-btn {
 		margin-left: 15.5rem;
 	}
+
+	.services-img-container {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
 }
 
 /* hero content resize */

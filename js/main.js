@@ -22,7 +22,7 @@ window.sr = ScrollReveal();
 
 sr.reveal('.animate-left', {
 	origin: 'left',
-	duration: 2000,
+	duration: 2500,
 	distance: '55rem',
 	delay: 300,
 });
