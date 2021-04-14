@@ -2,6 +2,9 @@
 @import './partials/variables.css';
 @import './partials/layout.css';
 @import './partials/home.css';
+@import './partials/lazy.css';
+@import '../slick/slick.css';
+@import '../slick/slick-theme.css';
 
 /* media queries always go at the end dont add anything below this */
 @import './partials/media-queries.css';

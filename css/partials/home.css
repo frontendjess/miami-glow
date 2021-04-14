@@ -127,3 +127,47 @@
 	color: #fff;
 	font-size: 1.6rem;
 }
+
+/* customers section */
+
+.customers {
+	height: 100vh;
+	background: linear-gradient(
+			rgba(255, 248, 249, 0.3),
+			rgba(255, 255, 255, 0.1)
+		),
+		url(../../img/influencer.png) center/cover no-repeat;
+}
+
+.customers-info-container {
+	text-align: center;
+}
+
+.customers-slider-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: solid 1px black;
+}
+.customers-slider-flexbox {
+	display: flex;
+}
+
+.customers-slider-right {
+	width: 50%;
+}
+
+.lazy {
+	max-width: 40%;
+}
+
+.customers-text p {
+	padding: 2.4rem;
+	color: var(--main-font-color-dark);
+}
+
+.fa-quote-left {
+	font-size: 3.2rem;
+	background: -webkit-linear-gradient(#e5e5e5, #fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
