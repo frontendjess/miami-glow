@@ -56,7 +56,7 @@
 
 .services-headline {
 	font-family: var(--main-font);
-	font-size: 2.4rem;
+	font-size: 3.4rem;
 	padding-top: 2.4rem;
 	text-transform: uppercase;
 	color: var(--main-font-color-dark);
@@ -66,7 +66,6 @@
 .safety-first {
 	background: url('../../img/safety-first.jpg') center no-repeat;
 	background-size: cover;
-	height: 70vh;
 }
 
 .safety-first-info-container {
@@ -75,21 +74,21 @@
 	grid-gap: 3rem;
 }
 
-.safety-first-info-left {
-	border: solid 1px red;
-	height: 50vh;
-}
-
-.safety-first-info-right {
-	border: solid 1px red;
-	height: 50vh;
-}
-
 .safety-first-sub-headline {
-	font-size: 4.2rem;
+	font-size: 6.2rem;
 	font-family: var(--main-font);
 	color: var(--main-font-color-dark);
-	line-height: 6.72rem;
+	line-height: 9.92rem;
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
+}
+
+.safety-first-description-text {
+	padding: 2.4rem 0;
+}
+
+.safety-first-description-text h3 {
+	font-size: 3.4rem;
+	color: #fff;
+	line-height: 5.44rem;
 }

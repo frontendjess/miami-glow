@@ -240,6 +240,13 @@ header {
 } */
 
 /* fonts */
+/*
+H1 - 
+H2 - 6.2rem / line-height 9.92rem
+H3 - 3.4rem / line-height 5.44rem
+H4 - 2.4rem / line-height 3.84rem
+H5 - 2.0 rem / line-height 3.2rem
+*/
 
 .headline-container {
 	margin: 27vh;
@@ -258,9 +265,9 @@ header {
 }
 
 .global-sub-headline {
-	font-size: 4.2rem;
+	font-size: 6.2rem;
 	font-family: var(--main-font);
-	line-height: 6.72rem;
+	line-height: 9.92rem;
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
 	background: -webkit-linear-gradient(#e5e5e5, var(--main-font-color-dark));
