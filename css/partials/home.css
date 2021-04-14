@@ -131,7 +131,6 @@
 /* customers section */
 
 .customers {
-	height: 100vh;
 	background: linear-gradient(
 			rgba(255, 248, 249, 0.3),
 			rgba(255, 255, 255, 0.1)
